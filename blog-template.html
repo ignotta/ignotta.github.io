@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Template</title>
+       
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
+    <style>
+        body{
+    margin: 0%;
+     }
+     .header{
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+}
+.header-part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid rgb(204, 204, 204) 1px;
+    height: 60px;
+}
+.header-part1 h1{
+    color:black;
+    text-decoration: underline 2px;
+    font-family:Times New Roman;
+}
+.header-part1 h1:hover{
+    text-decoration: none
+}
+.header-part1 button{
+   background-color: white;
+   border-radius: 3px;
+   border: 1px solid rgb(105, 105, 105);
+   height: 30px;
+   width: 66px;
+}
+.header-part1 button a{
+   text-decoration: none;
+   font-size: 15px;
+}
+.sign-up{
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 3px;
+}
+.header-part2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.header a {
+    color: #6c757d;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+.intro-card{
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+    background-color: #212529;
+    height: 365px;
+    color:white;
+    border-radius: 10px;
+    padding-left: 50px;  
+    margin-top: -15px;
+    
+ 
+
+}
+.intro-card h1{
+    font-size: 50px;
+    padding-top: 43px;
+    font-family: 'STIX Two Text', serif;
+    font-weight: 600;
+}
+.intro-card p{
+    font-size: 20px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    margin-top: -18px;
+    font-weight: lighter;
+}
+.intro-card a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bolder;
+    font-size: 13.4px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+}
+.cards a{
+    color: rgb(98, 147, 221);
+}
+.card-1{
+    display: flex;
+    justify-content: space-between;
+    border: rgb(177, 177, 177) 1px solid;
+    border-radius: 5px; 
+    height: 240px;
+    width: 550px;
+}
+.card1-left{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;   
+    line-height: 0.5;
+}
+.card1-left span{
+    color: #0D6EFD;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card1-left p{
+    line-height: 1.5;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+.card1-left h4{
+    color: rgb(146, 146, 146);
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.card1-right {
+    height: 240px;
+    width: 200px;
+    background-color: #535a61;
+    color: linen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.card-2{
+        display: flex;
+        justify-content: space-between;
+        border: rgb(177, 177, 177) 1px solid;
+        border-radius: 5px; 
+        height: 240px;
+        width: 550px;     
+    }
+.card2-left{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 300px;   
+        line-height: 0.5;
+    }
+.card2-left span{
+        color: rgb(27, 136, 85);
+        font-weight: bold;  
+        font-size: 18px;  
+    }
+.card2-left p {
+    line-height: 1.5;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+.card2-left h4{
+        color: rgb(146, 146, 146);
+        font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    }
+.card2-right {
+        height: 240px;
+        width: 200px;
+        background-color: #535a61;
+        color: linen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+}
+.main{
+    width: 725px;
+}
+.main a{
+    color: #0D6EFD;
+}
+.main p{
+    font-size: 16px;
+    color: #212529;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    line-height: 1.5;
+}
+.main li{
+    font-size: 16px;
+    color: #212529;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    line-height: 1.5;
+}
+.borderbottom{
+    border-bottom: rgb(199, 199, 199) 1px solid;
+}
+.html-tags{
+    color: rgb(216, 68, 117);
+}
+.row1{
+    padding-left: 10px;
+    font-weight: bolder;
+    border-bottom: black 1px solid;
+    font-size: 18px;
+    word-spacing: 150px;
+    padding-bottom: 10px;
+}
+.row2{
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: rgb(199, 199, 199) 1px solid;
+    font-size: 18px;
+    word-spacing: 160px;
+    padding-bottom: 10px;
+}
+.row3{
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: rgb(199, 199, 199) 1px solid;
+    font-size: 18px;
+    word-spacing: 170px;
+    padding-bottom: 10px;
+}
+.row4{
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: black 1px solid;
+    font-size: 18px;
+    word-spacing: 150px;
+    padding-bottom: 10px;
+}
+.row5{
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: rgb(199, 199, 199) 1px solid;
+    font-size: 18px;
+    word-spacing: 154px;
+    padding-bottom: 10px;
+}
+.older-button{
+    border:#0D6EFD solid 1px;
+    border-radius: 20px;
+    background-color: white; 
+    width: 65px;
+    height: 35px;
+    margin-top: 50px;
+}
+   
+.older-button a{
+    text-decoration: none;
+    font-size: 15px;  
+}
+.newer-button{
+    border:rgb(168, 168, 168) solid 1px;
+    color:rgb(168, 167, 167) ;
+    border-radius: 20px;
+    background-color: white; 
+    width: 65px;
+    height: 35px;
+    font-size:15px ;
+}
+
+.sidebar{
+    position: sticky;
+    top: 0%;
+    left: 800px;
+    height: 620px;
+    width: 350px;
+    line-height: 1.5;
+    margin-bottom: 120px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+.sidebar a{
+    color: #0D6EFD;
+    margin-left: -18px;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar h1{
+    padding-left: 23px;
+    margin-bottom: -18px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.about{
+    margin-top: 28px;
+    background-color: #f8f9fa;
+    border: #f8f9fa 1px solid;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.about p{
+    padding-left: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+.elsewhere{
+    margin-top: 40px;
+}
+.footer{
+    display: flex;
+    flex-flow: column;
+    height: 150px;
+    background-color:#f8f9fa ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: #ecedee 1px solid;
+    color:rgb(121, 121, 121) ;
+    margin-top: 50px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; ;
+}
+.footer a{
+    color: #0D6EFD;
+    
+}
+@media only screen and (max-width: 600px){
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin: 4%;
+    }
+    .card-1{
+        width: 350px ;
+        height: 200px;
+    }
+  .card1-right{
+      display: none;
+  }
+  .card2-right{
+      display: none;
+  }
+}
+    </style>
+</head>
+
+    
+
+<body>
+    <div class="header">
+        <div class="header-part1">
+        
+            <a href="" >Subscribe</a>
+            <h1>Large</h1>
+            <div>
+                <img src="001-search.svg" alt="" height="20px" width="17px" >
+                <button class="sign-up"> <a href="" > sign up</a></button>
+            </div>
+           
+    </div>
+    <div class="header-part2">
+        <a href="">World</a>
+        <a href="">U.S</a>
+        <a href="">Technology</a>
+        <a href="">Disign</a>
+        <a href="">Culture</a>
+        <a href="">Business</a>
+        <a href="">politics</a>
+        <a href="">opinion</a>
+        <a href="">science</a>
+        <a href="">health</a>
+        <a href="">style</a>
+        <a href="">travel</a>
+    </div>
+    </div>
+       
+    
+ 
+    <div class="intro-card">
+        <h1><em>Title of a longer <br> featured blog post</em> </h1>
+        <p >Multiple lines of text that form the lede, informing new <br> readers quickly and efficiently about what’s most interesting <br> in this post’s contents.</p>
+        <a href="" > <h2>Continue reading...</h2> </a>
+    </div>
+    <div class="cards">
+        <div class="card-1">
+            <div class="card1-left">
+                <span>World</span>
+                <h2> Featured post </h2> 
+                <h4> Nov 12 </h4>
+                <p> This is a wider card with supporting text <br> below as a natural lead-in to additional <br> content. </p> 
+                <a href="">Continue reading</a>
+            </div>
+            <div class="card1-right">
+                <p>Thumbnail</p>
+            </div>
+
+        </div>
+        <div class="card-2">
+            <div class="card2-left">
+                <span>Design</span>
+                <h2>  Post title </h2> 
+                <h4> Nov 11</h4>
+                 <p> This is a wider card with supporting text <br> below as a natural lead-in to additional <br> content. </p> 
+                <a href="">Continue reading</a>
+            </div>  
+            <div class="card2-right">
+                <p>Thumbnail</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main">
+            <div class="borderbottom">
+                <h2> <em>From the Firehose</em> </h2>
+            </div>
+            <div class="borderbottom">
+                <h1>Sample blog post</h1>
+            <p>January 1, 2021 by <a href=""> Mark</a></p>
+            <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic <br> typography, lists, tables, images, code, and more are all supported as expected.</p>
+            </div>
+            
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space <br> and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep <br> the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <h1>Blockquotes</h1>
+            <p>This is an example blockquote in action:</p>
+            <p>Quoted text goes here.</p>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space <br> and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep <br> the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <h1>Example lists</h1>
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly <br> repetitive body text used throughout. This is an example unordered list:</p>
+                <ul>
+                    <li>First list item</li>
+                    <li>Second list item with a longer description</li>
+                    <li>Third list item to close it out</li>
+                </ul>
+            <p>And this is an ordered list:</p>
+                <ol>
+                    <li>First list item</li>
+                    <li>Second list item with a longer description</li>
+                    <li>Third list item to close it out</li>
+                </ol>
+            <p>And this is a definiton list:</p>
+            <h4>HyperText Markup Language (HTML)</h4>
+            <p>The language used to describe and define the content of a Web page</p>
+            <h4>Cascading Style Sheets (CSS)</h4>
+            <p>Used to describe the appearance of Web content</p>
+            <h3>JavaScript (JS)</h4>
+            <p>The programming language used to build advanced Web sites and applications</p>
+            <h1>Inline HTML elements</h1>
+            <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="">Mozilla Developer Network</a> .</p>
+            <ul>
+                <li><strong>To bold text</strong> , use <span class="html-tags">&lt;strong&gt;</span> .</li>
+                <li> <em>To italicize text</em> , use <span class="html-tags"> &lt;em&gt;</span> .</li>
+                <li>Abbreviations, like <abbr title="">HTML</abbr>  should use <span class="html-tags">&lt;abbr&gt;</span>  , with an optional title attribute for the full phrase.</li>
+                <li>Citations, like — <cite>Mark Otto,</cite>  should use <span class="html-tags">&lt;cite&gt;</span>  .</li>
+                <li> <del> Deleted</del> text should use <span class="html-tags">&lt;del&gt;</span>  and <ins>inserted </ins> text should use <span class="html-tags">&lt;ins&gt;</span>  .</li>
+                <li>Superscript  <sup>text</sup>  uses <span class="html-tags">&lt;sup&gt;</span>  and subscript <sub>text</sub>  uses <span class="html-tags">&lt;sub&gt;</span> .</li>
+            </ul>
+            <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+            <h1>Heading</h1>
+            <p> This is some additional paragraph placeholder content. It has been written to fill the available space <br> and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep <br> the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <h1>Sub-heading</h1>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space <br> and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep <br> the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <p>Example code block</p>
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly <br> repetitive body text used throughout.</p>
+            <h1>Another blog post</h1>
+            <p>December 23, 2020 by <a href="">Jacob</a> </p>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space <br> and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep <br> the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <p>Longer quote goes here, maybe with some emphasized text in the middle of it.</p>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space <br> and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep <br> the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <h1>Example table</h1>
+            <p>And don't forget about tables in these posts:</p>
+            <div class="table">
+                <div class="row1">
+                    <span> Name</span>
+                    <span >Upvotes</span>
+                    <span >	Downvotes</span>
+                </div>
+                <div class="row2">
+                    <span> Alice</span>
+                    <span>10</span>
+                    <span style="padding-left: 32px;">11</span>
+                </div>
+                <div class="row3">
+                    <span> Bob</span>
+                    <span>4</span>
+                    <span style="padding-left: 32px;">3</span>
+                </div>
+                <div class="row4">
+                    <span> Charlie</span>
+                    <span>7</span>
+                    <span style="padding-left: 50px;">9</span>
+                </div>
+                <div class="row5">
+                    <span> Totals</span>
+                    <span>21</span>
+                    <span style="padding-left: 38px;">23</span>
+                </div>
+            </div>
+            
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly <br> repetitive body text used throughout.</p>
+            <h1>New feature</h1>
+            <p>December 14, 2020 by <a href="">Chris</a> </p>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space <br> and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep <br> the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            <ul>
+                <li>First list item</li>
+                <li>Second list item with a longer description</li>
+                <li>Third list item to close it out</li>
+            </ul>
+            <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly <br> repetitive body text used throughout.</p>
+           <div >
+           <button class="older-button"> <a href=""> Older</a></button>
+           <button class="newer-button" >Newer</button>
+        </div>
+        </div>
+        <div class="sidebar">
+            <div class="about">
+                <h1> <em>About</em> </h1>
+                <p>Customize this section to tell your <br> visitors a little bit about your publication, <br> writers, content, or something else <br> entirely. Totally up to you.</p>
+            </div>
+            <div class="archives">
+                <h1> <em>Archives</em> </h1>
+                <ul>
+                    <li> <a href="">March 2021</a>      </li>
+                    <li> <a href="">February 2021</a>   </li>
+                    <li> <a href="">January 2021</a>    </li>
+                    <li> <a href="">December 2020</a>   </li>
+                    <li> <a href="">November 2020</a>   </li>
+                    <li> <a href="">October 2020</a>    </li>
+                    <li> <a href="">September 2020</a>  </li>
+                    <li> <a href="">August 2020</a>     </li>
+                    <li> <a href="">July 2020</a>       </li>
+                    <li> <a href="">June 2020</a>       </li>
+                    <li> <a href="">May 2020</a>        </li>
+                    <li> <a href="">April 2020</a>      </li>
+                </ul>
+            </div>
+            <div class="elsewhere">
+                <h1> <em>Elsewhere</em> </h1>
+                <ul>
+                    <li> <a href="">GitHub</a>  </li>
+                    <li> <a href="">Twitter</a> </li>
+                    <li> <a href="">Facebook</a>  </li>
+                </ul>
+            </div>
+        </div>
+</div>
+<div class="footer" >
+    <div>
+        <p>Blog template built for <a href=""> Bootstrap</a> by <a href=""> @mdo</a>.</p>
+    </div>
+
+    <div>
+        <a href="">Back to top</a>
+    </div>
+   
+</div >
+
+
+
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,41 @@
+-selectors
+1- class selector ----- .class name
+2- id selector ------ #id name
+3- element selector  ------ tag name
+-strongest:
+1- inline style
+2- id selector
+3- class style
+4- element selector
+-the difference between id and class slector:
+you can use class selector multiple times but you can use id only for once
+
+
+-PSEUDOSELECTORS-
+
+
+
+-HOW TO ADD CSS TO HTML FILE-
+-inline-------internal-------external-
+
+-CSS PROPERTIES-
+background: color-image-repeat-size-position-attachment
+border:    border-style:solid-double-dotted-------border-width: ------ border color:
+display:   inline -inline block-block-none
+float:"horizontally" right-left-initial-inherit
+font: color-family-size-style-variant-weight
+line-height:
+margin:
+padding:
+opacity:
+overflow:'we use it when the content overflows the container' scroll-hidden
+position:fixed-relative-absolute-
+vertical-align:baseline-sub-super-bottom-top-middle
+ functions
+    filter:blur;brightness;transition
+    transform:scale;translate;rotate
+    animation
+    @keyframe: -from
+                -to
+    z-index:
+

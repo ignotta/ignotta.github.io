@@ -1,0 +1,39 @@
+.one{
+            display: flex;
+            justify-self: start;
+            height:600px;
+            width: 100%;
+            
+        }
+
+        .text1{
+            
+            display: flex;
+            justify-content: left;
+        }
+        .img1{
+            display: flex;
+            justify-content: right;
+            
+        }
+        button:first-child{
+            height:30px ;
+            width:100px ;
+        }
+
+
+
+        ...........
+        .text1{
+            margin-top: 30px;
+            margin-left: 130px;
+        
+        }
+
+        button:nth-child(1){
+            height:30px ;
+            width:300px ;
+        }
+        .img1{
+            margin-left: 670px;
+        }
